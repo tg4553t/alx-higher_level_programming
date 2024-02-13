@@ -1,4 +1,2 @@
 for i in range(ord('a'), ord('z') + 1):
-    print(chr(i), end='')
-
-print()
+    print("{0}" .format(chr(i)), end='')
